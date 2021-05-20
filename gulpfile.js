@@ -1,7 +1,7 @@
 const gulp = require('gulp');
 
 function html(){
-  return gulp.src('src/*.html').pipe(gulp.dest('dist'));
+  return gulp.src('*.html').pipe(gulp.dest('dist'));
 }
 
 function style(){
